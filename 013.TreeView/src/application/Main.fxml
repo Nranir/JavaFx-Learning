@@ -3,7 +3,7 @@
 <?import javafx.scene.control.TreeView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
    <children>
       <TreeView fx:id="treeview" layoutX="50.0" layoutY="50.0" onContextMenuRequested="#mouseClick" onMouseClicked="#mouseClick" prefHeight="303.0" prefWidth="356.0" />
    </children>

@@ -6,7 +6,7 @@
 <?import javafx.scene.control.ProgressIndicator?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane minHeight="300.0" minWidth="300.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+<AnchorPane minHeight="300.0" minWidth="300.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
    <children>
       <Button fx:id="btn1" layoutX="57.0" layoutY="95.0" mnemonicParsing="false" onAction="#btnClick" text="+" />
       <Label fx:id="lblStatus" layoutX="56.0" layoutY="36.0" prefHeight="42.0" prefWidth="200.0" text="Label" />
